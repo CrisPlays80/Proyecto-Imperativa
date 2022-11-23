@@ -26,6 +26,7 @@ int main(){
     cout << "Ingresar Sesion:" <<endl;
     log = login();
     system("cls");
+    cout << "Hola";
 
     do{
         menu_continue = menu(log);
